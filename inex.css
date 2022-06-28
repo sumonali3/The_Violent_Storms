@@ -366,3 +366,12 @@ cursor: pointer;
   color: #30BAE7;
   transition: 1s;
 }
+#ifram_1{
+  background: #aaaaaa;
+}
+
+.ifram{
+  width: 50%;
+  float: left;
+  margin: 10px 0;
+}
