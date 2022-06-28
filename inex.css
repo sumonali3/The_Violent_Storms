@@ -135,17 +135,18 @@ transition: 1s;
   color: #30BAE7;
 }
 .img_clip img{
-  padding: 5px 7px !important;
-  margin: 15px 10px !important;
+  padding: 0 !important;
   width: 210px;
   height: 210px;
   border-radius: 100%;
   opacity: 0.5;
+  border: 1px solid #ccc;
 }
 .img_clip img:hover{
 opacity: 1;
 transition: ease-out 1s;
 cursor: pointer;
+border: 1px solid #777;
 }
 .img_clip p{
   padding: 17px 10px;
@@ -164,6 +165,12 @@ cursor: pointer;
   line-height: 100%;
   text-align: center;
   border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.font_awesome a:hover{
+  border: 1px solid #777;
+  transition: ease-in-out 0.7s;
+  
 }
 /* end section 2 part  */
 
@@ -256,12 +263,12 @@ cursor: pointer;
   width: 10%;
   float: left;
   padding: 10px 20px;
-  border-radius: 100%;
 }
 .img_m_1 img{
   width: 130px;
   height: 130px;
   border-radius: 100%;
+  border: 1px solid #ccc;
 }
 .paragraph{
   width: 35%;
